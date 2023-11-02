@@ -36,4 +36,5 @@ let eligibleRollList: number[] = [1, 3];
 // tuple --> array --> order --> type of values
 let coordinates: [number, number] = [1, 5];
 
-let ageName = [50, "Mr.X"]
+let ageName: [number, string, boolean] = [50, "Mr.X", true];
+ageName[0] = 67;
